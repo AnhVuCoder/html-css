@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: antiquewhite;
+  position: relative;
+}
+.cha {
+  width: 300px;
+  height: 300px;
+  background-color: cornflowerblue;
+  position: absolute;
+  right: 50px;
+}
+.con {
+  width: 100px;
+  height: 100px;
+  background-color: gainsboro;
+}
+.item {
+  width: 100px;
+  height: 100px;
+  background-color: antiquewhite;
+  position: fixed;
+  bottom: 100px;
+  right: 50px;
+}
+body {
+  background-color: aqua;
+  height: 200px;
+}
+header {
+  width: 100%;
+  background-color: red;
+  position: sticky;
+  top: 200px;
+  height: 50px;
+}
+ul li {
+  display: inline;
+  padding: 10px 30px;
+  position: relative;
+}
+ul li:hover .subMenu {
+  opacity: 1;
+  left: 0;
+}
+.subMenu li {
+  display: block;
+}
+.subMenu {
+  position: absolute;
+  border: 1px solid black;
+  opacity: 0;
+  left: -500px;
+  transition: 1s;
+}

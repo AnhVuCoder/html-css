@@ -1,0 +1,15 @@
+.child {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+.mid {
+  align-self: flex-start;
+}
+div.parent {
+  height: 300px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

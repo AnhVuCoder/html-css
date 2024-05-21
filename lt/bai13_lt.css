@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+ul li {
+  padding: 5px 15px;
+  border: 1px solid black;
+  position: relative;
+}
+.subMenu {
+  display: none;
+  position: absolute;
+  top: 120px;
+  left: 0px;
+}
+ul li:hover .subMenu {
+  display: block;
+}
+ul li:before {
+  content: "BEFORE";
+  background-image: url("../img/ninja.jpeg");
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}

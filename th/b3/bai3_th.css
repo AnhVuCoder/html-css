@@ -1,0 +1,11 @@
+h2 {
+  text-align: center;
+  background-color: aqua;
+}
+.subject {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.red_color {
+  color: red;
+}

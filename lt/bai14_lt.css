@@ -1,0 +1,36 @@
+.block1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  transform: translate(-50%, -50%) rotate(90deg);
+  left: 50%;
+  border-radius: 50%;
+  border: 2px solid black;
+  overflow: auto;
+  animation: rotateAround linear 3s infinite;
+}
+.parent {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 200px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+@keyframes rotateAround {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}

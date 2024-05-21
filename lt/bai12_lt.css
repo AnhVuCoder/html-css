@@ -1,0 +1,15 @@
+.ninja {
+  width: 250px;
+  height: 310px;
+  background-image: url("../img/ninja.jpeg");
+  background-position: -313px;
+  animation: moveX 1s steps(3) infinite;
+}
+@keyframes moveX {
+  0% {
+    background-position-x: 0;
+  }
+  100% {
+    background-position-x: -626px;
+  }
+}

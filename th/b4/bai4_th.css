@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.centerData {
+  text-align: center;
+}
+.leftData {
+  text-align: left;
+}
+table,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  overflow: hidden;
+}
+td {
+  padding: 10px;
+}
+th {
+  padding: 15px;
+  background-color: #aea7a7e0;
+}
+table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.container {
+  width: fit-content;
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 0 auto;
+  box-shadow: -4px 4px 7px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -4px 4px 7px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -4px 4px 7px -3px rgba(0, 0, 0, 0.75);
+}
