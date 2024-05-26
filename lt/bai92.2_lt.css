@@ -1,0 +1,20 @@
+.box1,
+.box4,
+.box5 {
+  background: aqua;
+}
+.box2,
+.box3 {
+  background: blue;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: grid;
+  grid-template-rows: 50px 100px 50px;
+  grid-template-columns: 100px calc(100%-100px);
+  gap: 20px 50px;
+}
